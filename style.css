@@ -1,0 +1,37 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+  }
+  #project {
+    background-color: #e2edff;
+  }
+  .banner {
+    padding: 0;
+  }
+  section{
+      padding-top: 5rem;
+  }
+  
+  iframe {
+      width: 40em;
+      height: 30em;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  @media only screen and (max-width: 768px) {
+      .banner {
+          padding-top: 3rem;
+        }
+        
+        .jumbotron {
+          padding-top: 3rem;
+          background-color: #e2edff;
+        }
+      iframe {
+          width: 22em;
+          height: 15em;
+          display: block;
+          margin: 0 auto;
+      }
+  }
